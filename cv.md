@@ -1,5 +1,4 @@
 ## Personal Information:
-![](/FOTO.jpg "")
 - Name: Alexander Dobryakov
 - Location: Ekaterinburg, Russia
 - Phone: +7 992 008 11 88
