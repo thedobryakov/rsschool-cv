@@ -10,8 +10,7 @@ I am currently studying front-end development and have a keen interest in trail 
 
 ## Skills:
 - HTML
-- CSS/SASS
-- JS
+- CSS
 - Git
 
 ## Code Example:
@@ -23,8 +22,13 @@ function multiply(a, b){
 
 ```
 
+## Courses:
+
+- Udemy: WEB Developer
+- Innopolis University: Junior Frontend Developer
+
 ## Education:
-https://www.innopolis.ru/ru
+[Innopolis University](https://www.innopolis.ru/ru)
 
 ## Languages:
 
