@@ -1,11 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
-    <title>Document</title>
-</head>
-<body>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="assets/favicon.ico" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <img src="assets/avatar.png" alt="Avatar" />
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#summary" class="nav-link">Summary</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#code" class="nav-link">Code</a>
+            </li>
+            <li class="nav-item">
+              <a href="#courses" class="nav-link">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#languages" class="nav-link">Languages</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container">
+        <section id="profile" class="section">
+          <h1 class="section-title">Alexander Dobryakov</h1>
+          <p>Frontend Developer</p>
+        </section>
+
+        <section id="contacts" class="section">
+          <h2 class="section-title">Contacts</h2>
+          <ul>
+            <li>Phone: <span>+7 992 008 11 88</span></li>
+            <li>Email: <span>thedobryakov@gmail.com</span></li>
+            <li>Address: <span>Ekaterinburg</span></li>
+          </ul>
+        </section>
+
+        <section id="summary" class="section">
+          <h2 class="section-title">Summary</h2>
+          <p>
+            I am currently studying front-end development and have a keen
+            interest in trail running.
+          </p>
+        </section>
+
+        <section id="skills" class="section">
+          <h2 class="section-title">Skills</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>GIT</li>
+          </ul>
+        </section>
+
+        <section id="code" class="section">
+          <h2 class="section-title">Code Example</h2>
+          <pre><code>
+function multiply(a, b) {
+  return a * b;
+}
+        </code></pre>
+        </section>
+
+        <section id="courses" class="section">
+          <h2 class="section-title">Courses</h2>
+          <ul>
+            <li>Udemy: WEB Developer</li>
+            <li>Innopolis University: Junior Frontend Developer</li>
+          </ul>
+        </section>
+
+        <section id="education" class="section">
+          <h2 class="section-title">Education</h2>
+          <ul>
+            <li>Innopolis University</li>
+          </ul>
+        </section>
+
+        <section id="languages" class="section">
+          <h2 class="section-title">Languages</h2>
+          <ul>
+            <li>English - A1 Level</li>
+            <li>Russian - Native</li>
+          </ul>
+        </section>
+      </div>
+    </main>
+
+    <footer class="page-footer">
+      <div class="container">
+        <div class="page-footer__inner">
+          <div class="page-footer__copyright">
+            <p>© 2023 by Alexander Dobryakov</p>
+          </div>
+          <ul class="page-footer__contact-links">
+            <li class="contact-links__item">
+              <a
+                href="https://github.com/thedobryakov"
+                class="contact-links__link"
+                target="_blank"
+              >
+                <img src="assets/github.svg" alt="GitHub Icon" />
+              </a>
+            </li>
+            <li class="contact-links__item">
+              <a
+                href="https://rs.school/js/"
+                class="contact-links__link"
+                target="_blank"
+              >
+                <img src="assets/rs_school_js.svg" alt="RS School Icon" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
